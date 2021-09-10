@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Portfolio" name="Teddy Firman 404">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+  <title>Teddy Firman | Portfolio</title>  
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }} " >
+</head>
+
+<body class="">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
+ <!-- Add your content of header -->
+<header>
+  <nav class="navbar  navbar-fixed-top navbar-default">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+          <li><a href="./" title="">01 : Home</a></li>
+          <li><a href="./about.html" title="">02 : About me</a></li>
+          <li><a href="./works.html" title="">03 : Portfolio</a></li>
+          <li><a href="./contact.html" title="">04 : Contact</a></li>
+        </ul>
+
+
+      </div> 
+    </div>
+  </nav>
+</header>
+
+<div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h1 class="h2">About me</h1>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <h3>Let me introduce myself</h3>
+                  <p>I'm a college student at State University of Surabaya. I learning, enthusiast and intresting about Artificial Inteligence, Machine Learning and especially Data Science. 
+                    I've always learned Python programming languages and their frameworks because I love python.</p>
+                    <h3>Skills</h3>
+                  <p>
+                    <ul class="w-full mt-16 grid grid-cols-2 lg:grid-cols-3 gap-8 gap-y-16 md:gap-x-0 xl:gap-y-32">
+                      <li class="flex justify-center"> Main Programming: 
+                        <a href="https://www.python.org/" target="_blank" rel="noreferrer" class="text-center text-white hover:text-blue:400">
+                          <img style="width: 50px; height: 50px;" src="../static/assets/logo/python.ico" alt="python logo">
+                        </a>
+                      </li>
+                      <br>
+                      <li class="flex justify-center"> Framework & Tools:
+                        <a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer" class="text-center text-white hover:text-blue:400">
+                          <img style="width: 50px; height: 50px;" src="../static/assets/logo/tensor.ico" alt="tensor logo">
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="https://jupyter.org/" target="_blank" rel="noreferrer" class="text-center text-white hover:text-blue:400">
+                          <img style="width: 50px; height: 50px;" src="../static/assets/logo/jupyter.ico" alt="jupy logo">
+                        </a>
+                      </li>
+                      <br>
+                      <li class="flex justify-center"> Website:
+                        <a href="https://www.w3schools.com/html/" target="_blank" rel="noreferrer" class="text-center text-white hover:text-blue:400">
+                          <img style="width: 50px; height: 50px;" src="../static/assets/logo/html.ico" alt="html logo">
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="https://www.w3schools.com/Css/" target="_blank" rel="noreferrer" class="text-center text-white hover:text-blue:400">
+                          <img style="width: 50px; height: 50px;" src="../static/assets/logo/css.ico" alt="css logo">
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="https://www.javascript.com/" target="_blank" rel="noreferrer" class="text-center text-white hover:text-blue:400">
+                          <img style="width: 50px; height: 50px;" src="../static/assets/logo/js.ico" alt="js logo">
+                        </a>
+                      </li>
+                      <br>
+                      <li class="flex justify-center"> Database:
+                        <a href="https://www.mysql.com/" target="_blank" rel="noreferrer" class="text-center text-white hover:text-blue:400">
+                          <img style="width: 50px; height: 50px;" src="../static/assets/logo/mysql.ico " alt="sql logo">
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="https://www.php.net/" target="_blank" rel="noreferrer" class="text-center text-white hover:text-blue:400">
+                          <img style="width: 50px; height: 50px;" src="../static/assets/logo/php.ico" alt="php logo">
+                        </a>
+                      </li>
+                    </ul>
+                      <h3>More Information </h3>
+                        
+                        For more information, please download my cv
+                        
+                        <br><br>
+                        <a href="../static/assets/cv.pdf" target="_blank">
+                        <button type="submit" class="btn btn-default btn-lg">
+                          Download
+                        </button>
+                      </a>
+                      
+                  
+                  </p>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <a href="../static/assets/images/profile-pic.jpg" title="" class="black-image-project-hover" target="_blank">
+                    <img src="../static/assets/images/profile-pic.jpg" alt="profile-pic" class="img-responsive">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+       </div>
+      </div>
+    </div>
+  </div>
+
+
+<footer class="footer-container text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>© Website created with <a href="https://github.com/TeddyFirman" title="Create website with love" target="_blank">Teddy Firman Winarto</a>
+            <img style="width: 20px; height: 20px;" src="../static/assets/logo/github.ico" alt="github logo">
+    
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     navActivePage();
+  });
+</script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-XXXXX-X', 'auto');
+  ga('send', 'pageview');
+</script>
+
+--> <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script></body>
+
+</html>
